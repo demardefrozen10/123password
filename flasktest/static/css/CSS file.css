@@ -1,0 +1,61 @@
+.myheader {
+    font-family: "911 Porscha";
+    text-align: center;
+    position: relative;
+    margin-top: 50px;
+    margin-right: 20px;
+    color:  #ADD8E6;
+}
+#password {
+    position: absolute;
+    top: 40%;
+    height: 75px;
+    width: 90%;
+    display: inline-block;
+    font-family: "911 Porscha";
+    margin-left: 40px;
+    background-color: black;
+    color: #F0F8FF;
+    border: 2px solid #39FF14;
+    font-size: 75px;
+
+}
+.text123 {
+ margin-top: 350px;
+ margin-left: 800px;
+ font-family: "911 Porscha";
+ color:  white;
+
+}
+
+body {
+  background-color: black;
+}
+
+submit {
+    font-family: Tahoma;
+}
+
+#nocopy {
+    color: white;
+    margin-top: 50px;
+    margin-left: 700px;
+    font-family: "911 Porscha";
+    font-size: 25px;
+}
+#lengthyboi{
+    color: white;
+}
+#value {
+    color: white;
+}
+#submitbutton {
+    margin-top: 25px;
+    margin-left: 870px;
+    font-family: Courier Prime Bits, monospace;
+    background: orange;
+    border-color: #39FF14;
+}
+#generate {
+    color:black;
+}

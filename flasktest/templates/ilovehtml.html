@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/CSS file.css') }}">
+    <script defer src={{url_for('static', filename='ez.js')}}></script>
+    <title>Password Generator</title>
+</head>
+<body>
+        <h1 class="myheader">Password Generator</h1>
+        <p class="myheader">Generate secure, random passwords to stay safe online.</p>
+        <form class = "grid" action = "/result" method="POST">
+        <button type="button" onclick="functionGetter()" id="password">{{password}}</button>
+  <div class="text123">
+    <p1>Numbers<input type="checkbox" name="numberscheck" id="numberscheck" value="edit"/></p1>
+    <p1>Symbols<input type="checkbox" name="symbolscheck" value="edit"/></p1>
+  </div>
+            <p id="nocopy">PASSWORD NOT COPIED</p>
+            <button id="submitbutton">Generate Password</button>
+</body>
+</html>
